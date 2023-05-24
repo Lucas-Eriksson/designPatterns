@@ -1,18 +1,18 @@
 package Decorator;
 
-public class Caramel extends AddonDecorator{
-    
-    public Caramel(Beverage bev) {
-        super(bev);
-    }
+public class Caramel extends AddonDecorator {
 
-    @Override
-    public String getDescription() {
-        return bev.getDescription() + ", Caramel";
-    }
+  public Caramel(Beverage bev) {
+    super(bev);
+  }
 
-    @Override
-    public double getCost() {
-        return bev.getCost() + 0.2;
-    }
+  @Override
+  public String getDescription() {
+    return bev.getDescription() + ", Caramel";
+  }
+
+  @Override
+  public double getCost() {
+    return bev.getCost() + 0.2;
+  }
 }

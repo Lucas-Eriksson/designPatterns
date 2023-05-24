@@ -1,19 +1,18 @@
 package Decorator;
 
-public class WhippedCream extends AddonDecorator{
-    
-    public WhippedCream(Beverage bev) {
-        super(bev);
-    }
+public class WhippedCream extends AddonDecorator {
 
-    @Override
-    public String getDescription() {
-        return bev.getDescription() + ", Whipped cream";
-    }
+  public WhippedCream(Beverage bev) {
+    super(bev);
+  }
 
-    @Override
-    public double getCost() {
-        return bev.getCost() + 0.35;
-    }
+  @Override
+  public String getDescription() {
+    return bev.getDescription() + ", Whipped cream";
+  }
 
+  @Override
+  public double getCost() {
+    return bev.getCost() + 0.35;
+  }
 }

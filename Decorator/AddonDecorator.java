@@ -1,10 +1,10 @@
 package Decorator;
 
-public abstract class AddonDecorator extends Beverage{
-    protected Beverage bev;
+public abstract class AddonDecorator extends Beverage {
 
-    protected AddonDecorator(Beverage bev) {
-        this.bev = bev;
-    }
+  protected Beverage bev;
 
+  protected AddonDecorator(Beverage bev) {
+    this.bev = bev;
+  }
 }
