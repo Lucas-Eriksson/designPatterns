@@ -6,6 +6,6 @@ public class VIPCustomerDiscountStrategy implements DiscountStrategy {
   @Override
   public double applyDiscount(double amount) {
     //Apply VIP customer discount logic
-    return amount * 03; //30%
+    return amount * 0.3; //30%
   }
 }
