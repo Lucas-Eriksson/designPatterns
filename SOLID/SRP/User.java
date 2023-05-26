@@ -1,4 +1,3 @@
-
 //User class responsible for user management
 public class User {
     private String username;
